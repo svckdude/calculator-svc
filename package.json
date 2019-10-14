@@ -5,7 +5,7 @@
   "main": "dist/server.js",
   "scripts": {
     "start": "node .",
-    "test": "",
+    "test": "mocha",
     "dev": "tsc -w",
     "build": "tsc",
     "nodemon": "nodemon --delay 1500ms -e js --watch dist ."
@@ -13,7 +13,11 @@
   "author": "muhammad hasan",
   "license": "MIT",
   "devDependencies": {
+    "@types/chai": "^4.2.3",
+    "@types/mocha": "^5.2.7",
     "@types/node": "^12.7.12",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
     "nodemon": "^1.19.3",
     "typescript": "^3.6.4"
   }
