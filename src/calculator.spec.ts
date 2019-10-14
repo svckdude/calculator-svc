@@ -7,4 +7,4 @@ describe('calculator', function(){
       expect(add(1,2)).to.be.eq(3);
     });
   });
-})
+});
