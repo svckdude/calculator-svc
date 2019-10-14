@@ -1,0 +1,20 @@
+{
+  "name": "calculator-svc",
+  "version": "1.0.0",
+  "description": "service to expose calculator",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node .",
+    "test": "",
+    "dev": "tsc -w",
+    "build": "tsc",
+    "nodemon": "nodemon --delay 1500ms -e js --watch dist ."
+  },
+  "author": "muhammad hasan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "nodemon": "^1.19.3",
+    "typescript": "^3.6.4"
+  }
+}
