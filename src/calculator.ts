@@ -1,3 +1,17 @@
-export function add(n1: number, n2: number): number {
-  return n1 + n2;
+export class Calculator {
+  add(a:number, b:number):number {
+    return a + b;
+  }
+  
+  subtract(a:number, b:number):number {
+    return a - b;
+  }
+  
+  multiply(a:number, b:number):number {
+    return a * b;
+  }
+  
+  divide(a:number, b:number):number {
+    return a / b;
+  }
 }

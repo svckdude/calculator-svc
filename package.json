@@ -5,13 +5,13 @@
   "main": "dist/server.js",
   "scripts": {
     "start": "node .",
-    "test": "mocha",
+    "test": "mocha --config ./.mocharc.yaml",
     "test-e2e": "mocha --config ./test/.mocharc.yaml",
     "dev": "tsc -w",
     "dev-test": "tsc -w -p test",
     "build": "tsc",
     "build-test": "tsc -p test",
-    "nodemon": "nodemon --delay 1500ms -e js --watch dist ."
+    "server": "nodemon --delay 1500ms -e js --watch dist ."
   },
   "author": "muhammad hasan",
   "license": "MIT",
